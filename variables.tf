@@ -12,12 +12,12 @@ variable "zerossl_key" {
 
 }
 
-variable "personal_access_key" {
+variable "aliyun_access_key" {
   type = string
   //   sensitive = true
 }
 
-variable "personal_secret_key" {
+variable "aliyun_secret_key" {
   type = string
   //   sensitive = true
 }
