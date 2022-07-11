@@ -1,15 +1,15 @@
-terraform {
-  required_providers {
-    alicloud = {
-      source  = "hashicorp/alicloud"
-      version = "1.162.0"
-    }
-    archive = {
-      source  = "hashicorp/archive"
-      version = "2.2.0"
-    }
-  }
-}
+# terraform {
+#   required_providers {
+#     alicloud = {
+#       source  = "hashicorp/alicloud"
+#       version = "1.162.0"
+#     }
+#     archive = {
+#       source  = "hashicorp/archive"
+#       version = "2.2.0"
+#     }
+#   }
+# }
 
 #     acme = {
 #       source  = "vancluever/acme"
