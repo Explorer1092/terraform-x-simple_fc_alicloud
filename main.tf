@@ -30,7 +30,7 @@ provider "alicloud" {
 
 module "zerossl_alicloud" {
   source            = "Explorer1092/zerossl_alicloud/x"
-  version           = "1.0.4"
+  version           = "1.0.6"
   aliyun_access_key = var.personal_access_key
   aliyun_secret_key = var.personal_secret_key
   common_name       = local.domain
